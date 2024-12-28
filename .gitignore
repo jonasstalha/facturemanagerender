@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build files
+
+# Other files you might not want to track
+*.log
+*.sql

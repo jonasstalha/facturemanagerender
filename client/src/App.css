@@ -1,0 +1,97 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8; /* Light Gray Background */
+}
+
+/* Header (AppBar) */
+.MuiAppBar-root {
+  background-color: #1976d2; /* Deep Blue */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 10px 20px;
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MuiTypography-root {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+.MuiButton-root {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  color: #f4f6f8; /* Lighter hover effect */
+}
+
+/* Main container for content */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f6f8; /* Light Gray */
+}
+
+/* Form section */
+#form-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling for facture data */
+.MuiCard-root {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid #e0e0e0; /* Light Gray Border */
+}
+
+/* Footer styling */
+footer {
+  background-color: #1976d2; /* Deep Blue */
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the footer */
+  margin-top: auto;
+}
+
+footer .MuiButton-root {
+  color: rgb(235, 235, 235);
+  transition: background-color 0.3s ease;
+}
+
+footer .MuiButton-root:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+}
+
+footer .MuiTypography-root {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Loading spinner styling */
+.MuiCircularProgress-root {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Miscellaneous UI adjustments */
+.MuiContainer-root {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
