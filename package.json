@@ -7,7 +7,7 @@
     "dev": "cross-env NODE_ENV=development node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && npm install --prefix client && npm run build --prefix client",
-    "start": "cross-env NODE_ENV=production node server/index.js && node server.js",
+    "start": "cross-env NODE_ENV=production node server/index.js",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -23,8 +23,7 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "server": "file:../server"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
